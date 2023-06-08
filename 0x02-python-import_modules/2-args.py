@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from sys import argv
+i
 if __name__ == "__main__":
     fh = len(argv) - 1
     if fh == 0:
@@ -9,5 +10,5 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(fh))
     for j in range(1, fh + 1):
-        print("{}:{}".format(j, argv[j]))
+        print("{}: {}".format(j, argv[j]))
 
